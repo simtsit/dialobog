@@ -1,0 +1,93 @@
+body {
+	margin: 0px;
+}
+
+#dialog-box-bg {
+	position: fixed;
+	z-index: 10;
+	background-color: rgba(2,2,2,0.6);/* #444444; */
+
+	height: 100%;
+	width: 100%;
+	
+	margin: 0;
+
+	/*opacity:0.6;
+	//filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#dialog-box {
+	position: absolute;
+
+	background-color: #222222;
+	width: 460px;
+	height: 280px;
+	border:2px solid gray;
+	border-radius: 6px;
+	padding-left:20px;
+	padding-right:20px;
+
+	z-index:15;
+	top:50%;
+	left:50%;
+	margin:-150px 0 0 -250px;
+
+	opacity:20;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#dialog-box h2 {
+	text-transform: uppercase;
+	font-size: 32px;
+	color: magenta;
+	text-align: center;
+	line-height: 12px;
+}
+
+hr {
+	display: block;
+	height: 1px;
+    border: 0;
+    border-top: 1px solid gray;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+#dialog-box p {
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.inp { text-align: center;color: #fff;}
+
+.sub {
+	float: right;
+	margin-top: 12px;
+	min-width: 160px;
+	padding: 7px 30px;
+	border: 0px;
+	cursor: pointer;
+}
+
+.button-area {
+	margin-left: auto;
+	margin-right: auto;
+	width: 334px;
+	height: 80px;
+
+}
+
+.sub.pink {
+	background: #ff1169;
+	color: #fff;
+} 
+
+.sub.cancel {
+	float: left;
+}
+
+.sub.ok {
+	float: right;
+}
